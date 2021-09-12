@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 
-const API_ENDPOINT = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
+const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
 const AppContext = React.createContext();
 
