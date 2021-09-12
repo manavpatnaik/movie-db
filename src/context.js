@@ -17,7 +17,7 @@ const AppProvider = ({ children }) => {
 
     if (data.Response === "True") {
       setLoading(false);
-      setError({show: false, msg: ''})
+      setError({ show: false, msg: "" });
       setMovies(data.Search);
     } else {
       setLoading(false);
@@ -27,6 +27,7 @@ const AppProvider = ({ children }) => {
 
   useEffect(() => {
     fetchMovies();
+    // eslint-disable-next-line
   }, [query]);
 
   return (

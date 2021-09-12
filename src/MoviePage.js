@@ -25,6 +25,7 @@ const MoviePage = () => {
 
   useEffect(() => {
     fetchMovie();
+    // eslint-disable-next-line
   }, []);
 
   if (loading) {
@@ -39,7 +40,9 @@ const MoviePage = () => {
       <div className="single-movie-info">
         <h2>{movie.Title}</h2>
         <p>{movie.Plot}</p>
-        <p>Year: <strong>{movie.Year}</strong></p>
+        <p>
+          Year: <strong>{movie.Year}</strong>
+        </p>
         <Link to="/" className="btn">
           Back to home
         </Link>
