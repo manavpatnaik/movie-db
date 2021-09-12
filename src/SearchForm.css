@@ -1,0 +1,26 @@
+.search-form {
+  color: #102a42;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.search-form h2 {
+  font-size: 2.2rem;
+}
+
+.form-input {
+  width: 600px;
+  padding: 15px;
+  border-color: transparent;
+  border-radius: 10px;
+  letter-spacing: 0.1rem;
+  color: #102a42;
+  font-size: 1.1rem;
+}
+
+.error-text {
+  color: rgb(255, 114, 114);
+  font-size: 1.1rem;
+}
