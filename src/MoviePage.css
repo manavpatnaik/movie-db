@@ -1,0 +1,35 @@
+.movie-page {
+  width: 90vw;
+  max-width: 700px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.poster img {
+  border-radius: 5px;
+}
+
+.single-movie-info {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.single-movie-info h2 {
+  font-size: 2.3rem;
+  color: #23598c;
+}
+
+.btn {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #23598c;
+  display: inline;
+  width: 100px;
+}
